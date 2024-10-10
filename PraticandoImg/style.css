@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  background-image: url("./img/gato.jpg");
+  background-position: bottom right;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.redclaro {
+  background-color: rgb(231, 160, 160);
+}
+
+.letrazul {
+  color: blue;
+}
+
+#gatinho {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTL1W0VfKtbE4zWyaG5JDfbBnvjTEEgpCr3w&s");
+  background-size: 50px;
+}
+
+.verdeclaro {
+  opacity: 0.8;
+  background: rgba(red, green, blue, alpha);
+  background-color: rgb(150, 214, 150);
+}
+
+#img {
+  background-image: url("img/gato.png");
+}
