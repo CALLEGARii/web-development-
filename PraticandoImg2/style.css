@@ -1,8 +1,90 @@
-table,td{
+table, td {
     border: solid 1px black;
 }
 
-td{
+td {
     text-align: center;
-    
+    width: 100px;
+    padding: 3px;
+}
+
+.codigo {
+    width: 50px;
+    font-weight: bold;
+}
+
+.cor {
+    width: 250px;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+    font-size: 24px;
+}
+
+.b30000 {
+    background-color: #b30000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.b660000 {
+    background-color: #660000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.green {
+    background-color: green;
+    font-size: 24px;
+}
+
+.b99ff99 {
+    background-color: #99ff99;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.b004d00 {
+    background-color: #004d00;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blue {
+    background-color: blue;
+    font-size: 24px;
+}
+
+.bccccff {
+    background-color: #ccccff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.b000066 {
+    background-color: #000066;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.body {
+    background-image: url("./img/1330892.png");
+    background-size: 100px 100px;
+    background-position: 1vh 35vw;
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.ifsp {
+    background-image: url("./img/Marca_IFSP_2015031.png");
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -12vw;
+    right: 0;
+    width: 200px;
+    height: 200px;
 }
