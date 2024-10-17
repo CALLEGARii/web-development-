@@ -2,11 +2,11 @@
   width: 300px;
   right: 300px;
   opacity: 0.5;
-  transition: opacity 0.3s;
 }
 
 #img img:hover {
   opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .opacity10 {

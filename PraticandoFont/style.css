@@ -1,0 +1,157 @@
+.green {
+  text-align: center;
+  background-color: rgb(142, 255, 142);
+}
+.h3 {
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 40px;
+}
+
+span {
+  background-color: yellow;
+}
+
+.negrito {
+  text-indent: 50px;
+  text-align: left;
+  background-color: white;
+  font-weight: bold;
+}
+
+.blue {
+  text-align: left;
+  color: blue;
+}
+
+.red {
+  text-align: left;
+  color: red;
+}
+
+.yellow {
+  text-align: left;
+  color: rgb(236, 169, 22);
+}
+
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.traço {
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.underline {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.light-blue {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.text-transform {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.text-transform2 {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text-indent {
+  text-align: left;
+  text-indent: 50px;
+}
+
+.text-indent2 {
+  text-align: left;
+  text-indent: 100px;
+}
+
+.line-height {
+  text-align: left;
+  line-height: 1;
+}
+
+.line-height2 {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.line-height3 {
+  text-align: left;
+  line-height: 2;
+}
+
+.font-family {
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.font-family2 {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.font-family3 {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-family4 {
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.font-family5 {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-style {
+  text-align: left;
+  font-style: italic;
+}
+
+.font-weight {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.font-size {
+  text-align: left;
+  font-size: small;
+}
+
+.font-size2 {
+  text-align: left;
+  font-size: medium;
+}
+
+.font-size3 {
+  text-align: left;
+  font-size: larger;
+}
+
+.font-size4 {
+  text-align: left;
+  font-size: x-large;
+}
+
+.font-size5 {
+  text-align: left;
+  font-size: xx-large;
+}
