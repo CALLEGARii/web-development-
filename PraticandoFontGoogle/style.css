@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Handjet:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Handjet:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+.google {
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+span {
+  color: red;
+}
+.red1 {
+  color: red;
+  font-family: "abel", sans-serif;
+}
+.red2 {
+  color: red;
+  font-family: "borel", cursive;
+}
+.red3 {
+  color: red;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.red4 {
+  color: red;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.red5 {
+  color: red;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.fonte-abel {
+  font-family: "Abel", sans-serif;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+.light-pink {
+  background-color: lightpink;
+}
+
+.fonte-borel {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonte-crimson-text {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.light-green {
+  background-color: lightgreen;
+}
+
+.light-cinza {
+  background-color: lightgray;
+}
+
+.fonte-handjet {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.light-orange {
+  background-color: rgb(250, 167, 122);
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
