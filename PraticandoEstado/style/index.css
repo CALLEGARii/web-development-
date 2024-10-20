@@ -12,11 +12,20 @@
   color: black;
 }
 
+.bold2 {
+  font-weight: bold;
+}
+
+.blue {
+  color: rgb(169, 0, 212);
+}
+
 .black {
   color: black;
 }
 
-table,td {
+table,
+td {
   border: 1px solid black;
   border-spacing: 0;
   color: black;

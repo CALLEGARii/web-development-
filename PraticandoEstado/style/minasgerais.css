@@ -1,20 +1,25 @@
 .MG {
-    background-color: rgb(207, 245, 207);
-    color: rgb(0, 128, 0);
-  }
+  background-color: rgb(207, 245, 207);
+  color: rgb(0, 128, 0);
+}
 
 .blue {
-    color: blue;
-  }
+  color: blue;
+}
 
 #img img {
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+#img img:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .yellow {
-    background-color: yellow;
-    font-weight: normal;
-    color: black;
-  }
+  font-weight: normal;
+  color: black;
+}

@@ -1,20 +1,25 @@
 .RJ {
-    background-color: rgb(207, 235, 245);
-    color: rgb(4, 73, 164);
-  }
+  background-color: rgb(207, 235, 245);
+  color: rgb(4, 73, 164);
+}
 
 .blue {
-    color: blue;
+  color: blue;
 }
 
 .yellow {
-    background-color: yellow;
-    font-weight: normal;
-    color: black;
-  }
+  font-weight: normal;
+  color: black;
+}
 
-  #img img {
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-  }
+#img img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+#img img:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
