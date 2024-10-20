@@ -1,0 +1,20 @@
+.MG {
+    background-color: rgb(207, 245, 207);
+    color: rgb(0, 128, 0);
+  }
+
+.blue {
+    color: blue;
+  }
+
+#img img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.yellow {
+    background-color: yellow;
+    font-weight: normal;
+    color: black;
+  }

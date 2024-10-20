@@ -1,0 +1,45 @@
+.fundo {
+  background-color: lightgrey;
+}
+
+.sp {
+  background-color: rgb(249, 249, 187);
+  color: rgb(254, 65, 65);
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+.black {
+  color: black;
+}
+
+table,td {
+  border: 1px solid black;
+  border-spacing: 0;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(140, 140, 140);
+}
+
+.white {
+  background-color: white;
+  font-weight: normal;
+}
+
+.RJ {
+  background-color: rgb(207, 235, 245);
+  color: rgb(4, 73, 164);
+}
+
+.MG {
+  background-color: rgb(207, 245, 207);
+  color: rgb(0, 128, 0);
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
