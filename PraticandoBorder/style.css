@@ -1,0 +1,24 @@
+.yellow {
+  background-color: yellow;
+}
+
+.relative {
+  border: 1vh solid black;
+  font-size: 2vw;
+  width: 65%;
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+body {
+  background-color: lightblue;
+}
+
+.absolute {
+  border: 6px solid black;
+  font-size: 14px;
+  width: 620px;
+  background-color: white;
+}

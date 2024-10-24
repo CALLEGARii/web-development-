@@ -1,0 +1,64 @@
+.letra {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lhama {
+  font-family: "Lobster";
+}
+
+.lhama2 {
+  text-align: right;
+  padding: 30px;
+  font-family: "Lobster";
+}
+
+.rosa {
+  background-color: lightcoral;
+  border: 10px solid rgb(238, 94, 42);
+}
+
+.green {
+  background-color: lightgreen;
+  border: 10px solid rgb(1, 1, 148);
+  padding: 20px;
+}
+
+#img1 {
+  width: 200px;
+  margin: 5px;
+}
+
+#img2 {
+  width: 250px;
+  margin: 5px;
+}
+
+#img3 {
+  width: 290px;
+  margin: 5px;
+}
+
+#img4 {
+  width: 350px;
+  margin: 5px;
+}
+
+#img5 {
+  width: 350px;
+  margin: 5px;
+}
+
+#img6 {
+  width: 290px;
+  margin: 5px;
+}
+
+#img7 {
+  width: 250px;
+  margin: 5px;
+}
+
+#img8 {
+  width: 200px;
+  margin: 5px;
+}

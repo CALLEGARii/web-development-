@@ -1,0 +1,27 @@
+.cinza{
+    background-color: rgb(155, 155, 155);
+    height: 50vh;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-bottom: 20px dashed black;
+}
+
+.lightblue{
+    background-color: lightblue;
+    border: 10px solid blue;
+    height: 35vh;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+
+}
+
+.bola{
+    margin: 5vh auto;
+    height: 100px;
+    border: 10px solid red;
+    background: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}

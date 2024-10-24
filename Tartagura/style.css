@@ -1,0 +1,20 @@
+.blue{
+    background-color: lightblue;
+    border-right: 20px solid lightcoral;
+    border-bottom: 10px solid lightcoral;
+}
+
+.text{
+    text-indent: 20px;
+}
+
+#img{
+    border: 20px double rgb(200, 2, 200);
+
+}
+
+.turtuguita{
+    border: 10px dotted purple;
+    margin: 10px;
+
+}
