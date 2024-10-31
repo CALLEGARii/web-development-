@@ -1,0 +1,48 @@
+body {
+  background-color: orange;
+  margin-top: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+section {
+  background-color: blueviolet;
+  padding: 10px;
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  left: 150px;
+  width: 150px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.img2 {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  left: 150px;
+  width: 150px;
+  float: left;
+}
+.img3 {
+  margin-right: 10px;
+  margin-left: 30px;
+  left: 150px;
+  width: 150px;
+  float: right;
+}
+
+.p {
+  clear: both;
+}
+
+.left {
+  text-align: left;
+}
