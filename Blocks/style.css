@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px;
+    position: absolute; 
+    top: 100px;
+    left: 130vh;                             
+}
+
+.container2{
+    display: flex;          
+    flex-wrap: wrap;
+    gap: 30px;
+    left: 20px;
+    margin: 5px;
+    position: absolute;
+    top: 15vw;
+    left: 2vh;
+                                         
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px;
+    position: absolute;
+    top: 25vw;
+    left: 145vh;
+                                 
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 5px;
+    position: absolute;
+    top: 25vw;
+    left: 2vh;
+                                 
+}
+
+.small-box,
+.medium-box,
+.large-box,
+.tall-box {
+    background-color: green;
+}
+
+/* Estilos para caixas pequenas */
+.small-box {
+    width: 130px;
+    height: 130px;
+
+}
+
+/* Estilo para a caixa grande */
+.large-box {
+    width: 450px;
+    height: 120px;
+ 
+}   
+
+/* Estilo para a caixa média */
+.medium-box {
+    width: 150px;
+    height: 100px;
+    
+}
+/* Estilos para caixas altas */
+.tall-box {
+    width: 130px;
+    height: 400px;
+    
+}
+
+.tall-box-unico {
+    width: 130px;
+    height: 400px;
+
+    
+}
