@@ -1,36 +1,95 @@
-body{
-    background-image: linear-gradient(45deg,rgb(0, 28, 187),rgb(0, 148, 44));
-    height: 100vh;
+body {
+    background-image: linear-gradient(45deg, rgb(84, 109, 254), rgb(0, 148, 44));
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;   
 }
 
-.imgfundo{
-    background-image: url("img/pngwing.com.png");
+.imgfundo img {
+    position: fixed; /* Fixa a imagem no canto da tela */
+    bottom: 35vh; /* 35% da altura da janela */
+    right: 8vw; /* 10% da largura da janela */
+    width: 20vw; /* 20% da largura da janela */
+    height: auto; /* Mantém as proporções */
+    z-index: -1; /* Envia a imagem para o fundo */
+    opacity: 0.5; /* Torna a imagem translúcida */
 }
 
+.img2{
+    background-image: url("img/NOTAS.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
 
-.bold{
-    font-weight: bolder;
 }
 
-
-.border{
-    border-radius: 5%;
-}
-
-.display{
-    display: inline-block;
-    width: 500px;
-    text-align: right;
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
     
 }
+.conteudo {
+    padding: 20px;
+    border-radius: 10px;
+   
+}
 
-.center{
+.display {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+input, select, textarea {
+    margin: 8px 0;
+    padding: 2px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 1px;
+}
+
+.bold {
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: end;
+    margin: 12px 200px;
+    gap: 20px;
+}
+
+.linguagens div {
     text-align: center;
 }
 
-.flex{
-    justify-content: flex-end;
-    align-items: flex-end;
+.linguagens img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+
+.filmes {
+    margin: 10px 200px;
+}
+
+ input {
+    margin-right: 12px;
+}
+
+.blue{
+    color: #001ac1;
+    text-decoration: underline;
+}
+
