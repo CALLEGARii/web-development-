@@ -1,37 +1,57 @@
 body {
-    padding: 1vh;
-    padding-left: 10vh;
-    font-family: sans-serif;
+  padding: 1vh;
+  padding-left: 10vh;
+  font-family: sans-serif;
+}
+
+.color-button.red {
+  background-color: red;
+}
+
+.color-button.green {
+  background-color: green;
+}
+
+.color-button.blue {
+  background-color: blue;
+}
+
+.color-button.yellow {
+  background-color: yellow;
+}
+
+.color-button.magenta {
+  background-color: magenta;
 }
 
 .buttons-container {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .color-button {
-    width: 200px;
-    height: 40px;
-    border: 2px solid black;
-    cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 .clean {
-    padding: 5px 10px;
-    font-size: 20px;
-    cursor: pointer;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .preview-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5rem;
-    color: rgba(255, 255, 255, 0.6); /* Cor semi-transparente */
-    font-weight: bold;
-    text-align: center;
-    display: none; /* O texto começa oculto */
-    pointer-events: none; /* Ignora eventos de clique no texto */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  text-align: center;
+  display: none;
+  pointer-events: none;
 }

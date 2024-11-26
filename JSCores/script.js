@@ -1,55 +1,55 @@
 // Variável para armazenar a cor selecionada
-let selectedColor = '';
+let selectedColor = "";
+const colorButtons = document.querySelectorAll(".color-button");
+const previewText = document.querySelector(".preview-text");
 
-// Seleciona todos os botões coloridos
-const colorButtons = document.querySelectorAll('.color-button');
+colorButtons.forEach((button) => {
 
-// Seleciona o elemento do texto "Preview"
-const previewText = document.querySelector('.preview-text');
+  button.addEventListener("mouseover", () => {
+    if (!selectedColor) {
+      document.body.style.backgroundColor = button.dataset.color;
+      previewText.style.display = "block";
 
-// Adiciona evento de "mouseover" a cada botão
-colorButtons.forEach(button => {
+    } else {
+      document.body.style.backgroundColor = selectedColor;
+      previewText.style.display = "block";
+    }
 
-    // Quando o mouse passar sobre o botão, muda a cor de fundo
-    button.addEventListener('mouseover', () => {
-        if (!selectedColor) {
-            document.body.style.backgroundColor = button.dataset.color;
-            previewText.style.display = 'block';
-        } else {
-            document.body.style.backgroundColor = selectedColor;
-            previewText.style.display = 'block'; // Exibe o "Preview"
-        }
+    previewText.style.color = "black";
+    previewText.style.fontFamily = "sans-serif";
+  });
 
-        // Altera as propriedades do texto
-        previewText.style.color = 'black'; // Cor do texto sempre preto
-        previewText.style.fontFamily = 'sans-serif'; // Fonte sem serifa
+  button.addEventListener("mouseout", () => {
+    if (selectedColor) {
+      document.body.style.backgroundColor = selectedColor;
+      previewText.style.display = "none";
+      
+    } else {
+      document.body.style.backgroundColor = "";
+      previewText.style.display = "none";
+    }
+  });
+
+  button.addEventListener("click", () => {
+
+    selectedColor = button.dataset.color;
+    document.body.style.backgroundColor = selectedColor;
+    previewText.style.display = "none";
+
+    colorButtons.forEach((btn) => {
+
+      btn.addEventListener("mouseover", () => {
+        document.body.style.backgroundColor = btn.dataset.color;
+      });
+      btn.addEventListener("mouseout", () => {
+        document.body.style.backgroundColor = selectedColor;
+      });
     });
-
-    // Quando o mouse sair do botão, volta à cor selecionada (se houver)
-    button.addEventListener('mouseout', () => {
-        if (selectedColor) {
-            document.body.style.backgroundColor = selectedColor;
-            previewText.style.display = 'none'; // Remove o "Preview"
-        } else {
-            document.body.style.backgroundColor = '';
-            previewText.style.display = 'none'; // Remove o "Preview"
-        }
-        
-    });
-
-    // Quando um botão é clicado, fixa a cor
-    button.addEventListener('click', () => {
-        selectedColor = button.dataset.color; // Atualiza a cor selecionada
-        document.body.style.backgroundColor = selectedColor; // Muda o fundo para a cor clicada
-        previewText.style.display = 'none'; // Remove o "Preview"
-        
-        
-    });
+  });
 });
 
-// Evento para resetar o fundo e ocultar o texto
-document.querySelector('.clean').addEventListener('click', () => {
-    document.body.style.backgroundColor = ''; // Volta ao fundo padrão
-    selectedColor = ''; // Reseta a cor selecionada
-    previewText.style.display = 'none'; // Oculta o texto "Preview"
+document.querySelector(".clean").addEventListener("click", () => {
+  document.body.style.backgroundColor = "";
+  selectedColor = "";
+  previewText.style.display = "none";
 });

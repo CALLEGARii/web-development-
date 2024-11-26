@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #84bff9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: bold;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #343a40;
+  letter-spacing: 1px;
+}
+
+form {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control,
+.form-select {
+  border: 2px solid #495057;
+  border-radius: 5px;
+  padding: 10px;
+}
+form .form-control:focus,
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+button {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0b5ed7;
+  transform: scale(1.05);
+}
+
+button[type="reset"] {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="reset"]:hover {
+  background-color: #5c636a;
+  transform: scale(1.05);
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.table-container {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  border-radius: 10px;
+  border: 1px solid #bababa;
+}
+
+.table thead th {
+  background-color: #c9d1d8;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.sobre nav {
+  display: flex;
+}
+
+.tabela nav {
+  display: block;
+}
+
+
+.form-check-input {
+  border: 2px solid #495057; /* Borda mais escura */
+  border-radius: 4px; /* Cantos arredondados */
+}
