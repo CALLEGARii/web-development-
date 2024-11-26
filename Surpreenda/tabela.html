@@ -11,34 +11,76 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="tabela">
-    <div class="container mt-5">
-      <h1 class="text-center">Clientes Cadastrados</h1>
-      <div class="table-container">
-        <table class="table table-striped table-bordered">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Nome</th>
-              <th>E-mail</th>
-              <th>Telefone</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>João Silva</td>
-              <td>joao@email.com</td>
-              <td>(11) 99999-9999</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Maria Clara</td>
-              <td>maria@email.com</td>
-              <td>(21) 88888-8888</td>
-            </tr>
-          </tbody>
-        </table>
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Cadastro</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tabela.html">Tabela</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+
+    <!-- Conteúdo da Página -->
+<div class="container mt-5">
+  <h1 class="text-center">Clientes Cadastrados</h1>
+  <div class="table-container">
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>João Silva</td>
+          <td>joao@email.com</td>
+          <td>(11) 99999-9999</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Maria Clara</td>
+          <td>maria@email.com</td>
+          <td>(21) 88888-8888</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ana Costa</td>
+          <td>ana@email.com</td>
+          <td>(31) 77777-7777</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Pedro Almeida</td>
+          <td>pedro@email.com</td>
+          <td>(41) 66666-6666</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

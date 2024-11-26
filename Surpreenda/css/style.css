@@ -90,15 +90,9 @@ button[type="reset"]:hover {
   font-weight: bold;
 }
 
-.sobre nav {
-  display: flex;
-}
-
-.tabela nav {
-  display: block;
-}
 
 .form-check-input {
   border: 2px solid #495057; /* Borda mais escura */
   border-radius: 4px; /* Cantos arredondados */
 }
+
