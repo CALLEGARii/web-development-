@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
+  
   margin-bottom: 20px;
   color: #343a40;
   letter-spacing: 1px;
@@ -27,7 +27,7 @@ form {
 
 form .form-control,
 .form-select {
-  border: 2px solid #495057;
+  border: 1px solid #495057;
   border-radius: 5px;
   padding: 10px;
 }
@@ -92,7 +92,7 @@ button[type="reset"]:hover {
 
 
 .form-check-input {
-  border: 2px solid #495057; /* Borda mais escura */
+  border: 1px solid #495057; /* Borda mais escura */
   border-radius: 4px; /* Cantos arredondados */
 }
 
