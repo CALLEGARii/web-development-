@@ -1,0 +1,20 @@
+.button{
+    text-align: left;
+}
+
+body{
+    margin: 25px;
+    padding-top: 10px;
+}
+
+p{
+    margin-top: 15px;
+}
+
+.btn{
+ margin: 2px;   
+}
+
+.d-flex{
+    gap: 100px;
+}
