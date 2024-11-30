@@ -5,12 +5,13 @@ document.querySelector("#img img").addEventListener("click", function () {
     document.body.style.backgroundColor = "white";
     document.querySelector("h1").style.color = "black";
     document.querySelector("h2").style.color = "black";
+    document.querySelector("h2").textContent = "Lâmpada acesa";
     imgElement.src = "img/lampada-acesa.png";
   } else {
-    
     document.body.style.backgroundColor = "black";
     document.querySelector("h1").style.color = "white";
     document.querySelector("h2").style.color = "white";
+    document.querySelector("h2").textContent = "Lâmpada apagada";
     imgElement.src = "img/lampada.png";
   }
 });
