@@ -1,20 +1,34 @@
-.button{
-    text-align: left;
+.button {
+  text-align: left;
 }
 
-body{
-    margin: 25px;
-    padding-top: 10px;
+body {
+  margin: 25px;
+  padding-top: 10px;
 }
 
-p{
-    margin-top: 15px;
+p {
+  margin-top: 20px;
 }
 
-.btn{
- margin: 2px;   
+.btn {
+  margin: 2px;
 }
 
-.d-flex{
-    gap: 100px;
+.d-flex {
+  gap: 100px;
+}
+
+.corpo {
+  margin-top: 2vh;
+}
+
+#img img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+#lado {
+  text-align: left;
 }
