@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Vue</title>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</head>
+
+<body>
+    <div id="app"></div>
+    
+    <script>
+        const helloVue = {
+            template: `
+                        <h1>{{message}}</h1>
+
+                        <p>Contador de cliques: <b>{{ count }}</b></p>
+
+                        <p>
+                            <button @click="somar">
+                                Somar
+                            </button>
+                            <button @click="subtrair">
+                                Subtrair
+                            </button>
+                        </p>
+                        <div>
+                            <input type="text" v-model="meuTexto" placeholder="Digite algo aqui">
+                        </div>
+                        <p style="font-size: 2.5em;">{{ meuTexto }}</p>
+                        <div v-show="meuTexto=='Eder'">
+                            <img width="120" src="https://epansani.com.br/resume/img/Eder-Perfil-3.jpg" alt="Eder Pansani">
+                        </div>
+                    `,
+            data() {
+                return {
+                    message: "Hello World Vue!",
+                    count: 0,
+                    meuTexto: null
+                }
+            },
+            methods: {
+                somar() {
+                    this.count++
+                },
+                subtrair() {
+                    this.count++
+                }
+            }
+        }
+        Vue.createApp(helloVue).mount('#app')
+    </script>
+</body>
+
+</html>

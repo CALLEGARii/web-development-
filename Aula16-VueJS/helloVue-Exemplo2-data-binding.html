@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Vue</title>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{message}}</h1>
+
+        <p>Contador de cliques: <b>{{ count }}</b></p>
+        <button @click="somar">
+            Somar
+        </button>
+        <button @click="subtrair">
+            Subtrair
+        </button>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue
+        const count = ref(0)
+
+        function somar(){
+            count.value++
+        }
+        function subtrair(){
+            count.value--
+        }
+
+        createApp({
+            setup() {
+                const message = ref('Hello vue!')
+                return {
+                    message,
+                    count,
+                    somar,
+                    subtrair
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+
+</html>
