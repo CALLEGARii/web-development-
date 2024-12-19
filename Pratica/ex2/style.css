@@ -1,0 +1,44 @@
+
+body {
+  margin: 30px;
+  padding-left: 10vh;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 2px;
+}
+
+.d-flex {
+  gap: 500px;
+}
+
+#lado{
+  border: 3px solid rgb(217, 217, 217);
+  width: 42vw;
+  height: 50vh;
+  float: left;
+}
+
+#lado2{
+  border: 3px solid rgb(213, 213, 213);
+  float: right;
+  width: 45vw;
+  height: 50vh;
+  margin-right: 8vh;
+  
+}
+
+#img img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+
+
+
+ 
